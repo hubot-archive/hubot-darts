@@ -1,0 +1,26 @@
+# Hubot Darts
+
+Have an office dart fight even when working from home!
+
+## Usage:
+
+hubot shoot target (in the head/body/legs) - Fire's a foam dart at the target.
+Optionalls tries to hit a particular target.
+
+## Installation
+
+Add the package `hubot-darts` entry to the `external-scripts.json` file
+(you may need to create this file).
+
+    "dependencies": {
+      "hubot-darts": "1.0.x"
+    }
+
+Run the following command to make sure the module is installed.
+
+    #npm install hubot-darts
+
+To enable the script, add the `hubot-darts` entry to the `external-scripts.json`
+file (you may need to create this file).
+
+    ["hubots-darts"]
