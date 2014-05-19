@@ -2,6 +2,8 @@
 
 Have an office dart fight even when working from home!
 
+[![Build Status](https://travis-ci.org/bsensale/hubot-darts.png)](https://travis-ci.org/bsensale/hubot-darts) [![NPM version](https://badge.fury.io/js/hubot-darts.png)](http://badge.fury.io/js/hubot-darts)
+
 ## Usage:
 
 hubot shoot target (in the head/body/legs) - Fire's a foam dart at the target.
