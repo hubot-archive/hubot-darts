@@ -75,7 +75,7 @@ module.exports = (robot) ->
         ]
       else if target is "body"
         msg.random [
-          "The shot bounces off #{victimName}'s shoulderi.",
+          "The shot bounces off #{victimName}'s shoulder.",
           "It hits #{victimName} right in the chest.  #{victimName} has trouble drawing their next breath.",
           "The dart hits #{victimName} in the stomach and gets lodged in their belly button.",
           "It hits #{victimName} in the back, causng temporary paralysis.",
