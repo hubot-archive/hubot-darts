@@ -9,6 +9,15 @@ Have an office dart fight even when working from home!
 hubot shoot target (in the head/body/legs) - Fire's a foam dart at the target.
 Optionally tries to hit a particular target.
 
+### Sample Interaction:
+
+    user1> hubot shoot user2
+    hubot> user1: Target acquired
+    hubot> * hubot fires a foam dart at users2's body.  The shot bounces off users2's shoulder.
+    user1> hubot: shoot user2 in the legs
+    hubot> user1: Target acquired.
+    hubot> * hubot fires a foam dart at users2's legs.  The dart hits right on users2's shin, knocking them to the ground
+
 ## Installation
 
 Add the package `hubot-darts` entry to the `external-scripts.json` file
