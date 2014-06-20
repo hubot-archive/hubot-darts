@@ -1,7 +1,7 @@
 {
   "name": "hubot-darts",
-  "version": "1.0.0",
-  "description": "Bring offie foam dart fights to the chatroom",
+  "version": "1.0.1",
+  "description": "Bring office foam dart fights to the chatroom",
   "main": "index.coffee",
   "author": {
     "name": "Brian Sensale",
@@ -19,13 +19,13 @@
   "scripts": {
     "test": "script/test"
   },
-  "homepage": "https://github.com/bsensale/hubot-darts/",
+  "homepage": "https://github.com/hubot-scripts/hubot-darts/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bsensale/hubot-darts.git"
+    "url": "https://github.com/hubot-scripts/hubot-darts.git"
   },
   "bugs": {
-    "url": "https://github.com/bsensale/hubot-darts/issues"
+    "url": "https://github.com/hubot-scripts/hubot-darts/issues"
   },
   "dependencies": {
     "hubot": ">= 2.4.0",
