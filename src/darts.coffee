@@ -8,8 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot shoot target (in the legs/head/body) - Fire's a foam dart at the target
-#    Optionalls attempts to aim for a specific area of the body.
+#   hubot shoot target (in the legs/head/body) - Fires a foam dart at the target
 #
 # Notes:
 #   None
