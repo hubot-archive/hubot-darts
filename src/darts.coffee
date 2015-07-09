@@ -16,33 +16,13 @@
 # Author:
 #   bsensale
 
-# TODO: Figure out how to match up the incoming message with the correct user
-# by @mention name.  My testing has found that its sending in the @mention value
-# as set in hipchat's settings, but that that text doesn't necessarily match the
-# value stored in the user hash. :-/
-# This method is not used until I can work through how to better find and target
-# based on the mention_name.
-userForMentionName = (robot, msg, mentionname) ->
-  robot.logger.debug "Checking mentionname: #{mentionname}"
-  for k of (robot.brain.data.users or { } )
-    user = robot.brain.data.users[k]
-    robot.logger.debug "user: #{user}"
-    name = user.mention_name
-    robot.logger.debug "Name found: #{name}"
-    if name? and name.toLowerCase() is mentionname.toLowerCase()
-      return user
-  return null
-
 module.exports = (robot) ->
 
   robot.respond /shoot ((.+)(?: in the )(head|body|legs)?|(.*))/i, (msg) ->
 
     victimStr = msg.match[2] ? msg.match[4]
+    victimStr = victimStr.substr(1) if victimStr.charAt(0) is '@'
 
-# Disable mention name lookups.
-#    if victimStr.charAt(0) is '@'
-#      victim = userForMentionName(robot, msg, victimStr.slice 1)
-#    else
     users = robot.brain.usersForFuzzyName(victimStr)
     if users.length > 1
       msg.reply "Be more specific; I can't shoot more than one person at once!"
