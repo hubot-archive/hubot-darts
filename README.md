@@ -2,7 +2,7 @@
 
 Have an office dart fight even when working from home!
 
-[![Build Status](https://travis-ci.org/hubot-scripts/hubot-darts.png)](https://travis-ci.org/hubot-scripts/hubot-darts) [![NPM version](https://badge.fury.io/js/hubot-darts.png)](http://badge.fury.io/js/hubot-darts)
+[![Build Status](https://travis-ci.org/hubot-scripts/hubot-darts.svg?branch=master)](https://travis-ci.org/hubot-scripts/hubot-darts) [![NPM version](https://badge.fury.io/js/hubot-darts.png)](http://badge.fury.io/js/hubot-darts)
 
 ## Usage:
 
