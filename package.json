@@ -1,6 +1,6 @@
 {
   "name": "hubot-darts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bring office foam dart fights to the chatroom",
   "main": "index.coffee",
   "author": {
