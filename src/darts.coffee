@@ -57,7 +57,7 @@ module.exports = (robot) ->
           "The shot bounces off #{victimName}'s shoulder.",
           "It hits #{victimName} right in the chest.  #{victimName} has trouble drawing their next breath.",
           "The dart hits #{victimName} in the stomach and gets lodged in their belly button.",
-          "It hits #{victimName} in the back, causng temporary paralysis.",
+          "It hits #{victimName} in the back, causing temporary paralysis.",
           "The dart bounces off #{victimName}'s left shoulder, spinning them violently around."
         ]
       else if target is "legs"
