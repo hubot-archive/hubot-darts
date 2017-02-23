@@ -34,4 +34,4 @@ Run the following command to make sure the module is installed.
 To enable the script, add the `hubot-darts` entry to the `packages.json`
 file (you may need to create this file).
 
-    ["hubots-darts"]
+    ["hubot-darts"]
